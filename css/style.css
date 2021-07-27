@@ -74,26 +74,38 @@ nav a:hover{
     overflow: hidden;
 }
 
-/* .content .col .img {
+.content .col .img {
     position: absolute;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-} */
+    display: flex;
+    height: 20vw;
+    flex-direction: row-reverse;
+    
+}
 
 .content .col h2 {
-    color: #003268;
+    color:#003268;
     font-size: 1.2rem;
-    line-height: 3rem;
+    /* line-height: 3rem; */
     border-bottom: 1px solid grey;
+    margin-top: 60px;
 }
 
 .col .mega-links li, .col .mega-links li a {
     padding: 0 1rem;
+    color: #003268;
 }
-.menu-items li:hover .mega-menu {
+
+
+.menu-items li:hover .mega-menu{
     top: 50px;
     opacity: 1;
     visibility: visible;
+    color: #e7d37f;
 }
+
+.astonMartin{
+    visibility: hidden;
+}
+
+
+
